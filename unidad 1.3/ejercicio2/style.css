@@ -1,0 +1,17 @@
+.none{
+    display: none;
+}
+.inline{
+    display:inline;
+    background-color:red;
+}
+.block{
+    display: block;
+    background-color: blue;
+}
+.inline-block{
+    display: inline-block;
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+}

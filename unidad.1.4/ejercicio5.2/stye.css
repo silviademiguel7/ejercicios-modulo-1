@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    margin: 0px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.headerclas{
+    width:100%;
+    background: green;
+    border: 1px black solid;
+    padding: 10px;
+
+}
+.mainclas{
+    width:100%;
+    flex-grow: 1;
+    background: grey;
+    min-height: 100vh;
+    padding: 10px;
+}
+.footerclas{
+    width: 100%;
+    background: yellow;
+    border: 1px green solid;
+    padding: 10px;
+}

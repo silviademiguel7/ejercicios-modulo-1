@@ -1,0 +1,35 @@
+.container {
+  background: salmon;
+  margin: 0px; /*para eliminar el margin por defecto que pone el navegador a la etiqueta <ul>*/
+}
+
+/* establecer nuestro contenedor como display flex para que se organicen las noticias como items en fila*/
+.container-news {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row; /*se puede omitir porque por defecto flex-direction es row*/
+  flex-wrap: wrap; /*para que los items que no entren en una misma fila se coloquen en una nueva fila a continuación*/
+}
+
+/*establecer el tamaño de nuestros items(cada li) para que ocupen el 50% del ancho de nuestra pantalla*/
+.elemento {
+  padding: 10px;
+  border: 2px solid black;
+  width: 50%; 
+  box-sizing: border-box; /*para que el tamaño del border se incluya en el tamaño total del elemento*/
+}
+
+/*establecer que nuestra primera noticia ocupe el 100% del tamaño de nuestra pantalla*/
+.elemento-1 { /*o también podríamos hacerlo con el selector elemento:first-child*/
+  width: 100%; 
+}
+
+/*ajustar el tamaño y la posición de la img dentro de nuestro contenedor*/
+.imagen-noticia {
+  width: 50%;
+  height: 150px;
+  display: block;
+  margin: auto;
+}

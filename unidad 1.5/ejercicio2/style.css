@@ -1,0 +1,31 @@
+.container{
+    background: grey;
+    position: relative;
+}
+.dimensiones{
+    height: 300px;
+    width: 300px;
+    margin:40px;
+    padding: 30px;
+    text-align: center;
+    
+
+}
+.div1{
+    position: relative;
+    background: red;
+    left: 100px;
+    top: 50px;
+}
+.div2{
+    position: relative;
+    background:blue;
+    right: 150px;
+    bottom: 320px;
+}
+.div3{
+    position: relative;
+    background:yellow;
+    left: 180px;
+    bottom: 240px;
+}

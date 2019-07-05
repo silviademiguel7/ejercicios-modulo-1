@@ -1,0 +1,12 @@
+.container{
+    display:flex;
+    height: 100px;
+   width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+li{
+    list-style: none;
+
+}

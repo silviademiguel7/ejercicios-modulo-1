@@ -1,0 +1,31 @@
+.header1{
+    background: red;
+    text-align: center;
+}
+.aside1{
+    background: yellow;
+    flex-grow: 2;
+}
+.main1{
+    background: blue;
+    flex-grow: 1;
+}
+.aside2{
+    background: plum;
+    flex-grow: 5;
+}
+.footer1{
+    background: green;
+    text-align: center;
+}
+.container{
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    width:100%;
+}
+body{
+    max-width: 960px;
+    margin: 0px;
+}
+

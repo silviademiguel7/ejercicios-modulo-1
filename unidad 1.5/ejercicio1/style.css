@@ -1,0 +1,8 @@
+.menu{
+    list-style: none;
+    display:flex;
+}
+.elemento{
+    margin: 6px;
+  
+}

@@ -1,0 +1,24 @@
+.caja{
+    display: flex;
+    flex-direction: column;
+
+}
+body{
+    height: 100vh;
+    background: grey;
+    color: black;
+    margin: 0px;
+}
+.main{
+    border: 1px black solid;
+    min-height: 100vh;
+    flex-grow: 1
+}
+.header{
+    border: 1px black solid;
+    background:red;
+}
+.footer{
+    border: 1px black solid;
+    background: blue
+}

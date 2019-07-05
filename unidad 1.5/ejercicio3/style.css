@@ -1,0 +1,19 @@
+header{
+    background: purple;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.container{
+    background:grey;
+    position: relative;
+    overflow-y: auto;
+
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}

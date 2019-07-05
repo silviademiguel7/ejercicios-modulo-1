@@ -1,0 +1,35 @@
+.caja {
+    display: flex;  
+    font-weight: bold;
+    text-align: center;
+    width:100%;
+}
+
+.header {
+    background: red;
+    text-align: center;
+}
+
+.main {
+    background: rgb(107, 107, 226);
+    text-align: center;
+    
+}
+
+.aside1 {
+    background: coral;
+    
+}
+
+.aside2 {
+    background: yellow;
+    
+}
+.footer{
+    background: green;
+    text-align:center;
+    
+}
+body{
+    max-width: 960px;
+}

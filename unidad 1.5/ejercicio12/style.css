@@ -1,0 +1,83 @@
+
+body{
+    margin: 0px;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+}
+.main1{
+    max-width: 600px;
+    
+    width: 100%;
+    display:flex;
+    align-self: center;
+}
+.cabecera{
+    width: 100%;
+    background: black;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 0px;
+
+}
+ul.menu > li{
+    margin: 0px 8px;
+}
+.botones{
+    padding: 0px 8px 0px 0px;
+}
+.aside1{
+    display: flex;
+    flex-direction: column;
+
+}
+.main1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+.aside1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.articulo{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer1{
+    
+    width: 100%;
+    border-top: 3px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cokkies{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background:rgba(128, 128, 128, 0.591);
+    z-index: 1;
+}
+.caja{
+    text-align: center;
+    width: 50%;
+    background: white;
+    transform: translate(25vw, 50vh);
+    padding:16px 16px;
+}
+.sus{
+    background-color: black;
+    color: white;
+}

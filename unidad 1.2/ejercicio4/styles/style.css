@@ -1,0 +1,10 @@
+body{
+    font-size: 18px;
+    font-family:tahoma;
+    color: rebeccapurple;
+    background-color: mediumpurple;
+    line-height: 1.5px;
+}
+.tittle{
+    font-size: inherit
+}
