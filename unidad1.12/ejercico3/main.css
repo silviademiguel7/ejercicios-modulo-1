@@ -1,0 +1,30 @@
+.wrapper{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 20vh 1fr 20vh;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.item1{
+    grid-column: 1/13;
+    background: purple;
+    
+    
+}
+.item2{
+    grid-column: 1/5;
+    background: pink;
+}
+.item3{
+    grid-column: 5/13;
+    background: red;
+}
+.item4{
+    grid-column: 1/13;
+    background: blue;
+}

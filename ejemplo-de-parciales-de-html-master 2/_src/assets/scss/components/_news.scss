@@ -1,0 +1,10 @@
+.news {
+  padding: 30px;
+}
+
+.news__item {
+  padding: 16px 0;
+}
+.news__item + .news__item {
+  border-top: 1px solid #ccc;
+}

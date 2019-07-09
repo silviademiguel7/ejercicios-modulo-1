@@ -1,0 +1,34 @@
+@keyframes tittle {
+  from {
+    top: -100px;
+  }
+  to {
+    top: 50vh;
+  }
+}
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(http://as01.epimg.net/epik/imagenes/2018/04/28/portada/1524913221_572475_1524913364_noticia_normal.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.tittle {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  text-align: center;
+  animation-name: tittle;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+
+}

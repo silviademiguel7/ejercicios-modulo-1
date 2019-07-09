@@ -1,0 +1,19 @@
+.hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.hero__title {
+  background-color: black;
+  padding: 20px 40px;
+  margin: 0;
+  color: white;
+}
+
+.otra .hero__title {
+  display: none;
+}
